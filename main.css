@@ -379,6 +379,9 @@ margin-left: 20px;
 border-radius: 10px;
 margin-top: 20px;
 }
+.body1_gioithieu a {
+  text-decoration: none;
+}
 .anh_timkiem{
   display:flex;
   padding-bottom: 15px;
@@ -595,11 +598,14 @@ display:flex;
 .baiviet1 {
 display:flex;
 justify-content: space-between;
+background:#dfe0e2;
+padding:16px 5px;
 }
 .baiviet1_quantam  {
   display:flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 .baiviet1_quantam div {
 width:120px;
@@ -611,12 +617,52 @@ align-items: center;
 border-radius:5px;
 margin-right:5px;
 }
+.baiviet1_quantam div:hover{
+  background-color:#c6c4c4;
+}
 .baiviet1_quantam div i {
   margin-right: 5px;
 }
-.baiviet1 {
-background:#dfe0e2;
+.soluotlikevacomment{
+  display:flex;
+  justify-content: space-between;
+  background-color:#ffffff;
+  padding:10px 0px;
 }
+.thichbinhluanchiase ul {
+list-style: none;
+display:flex;
+margin:0px;
+padding:0px;
+background-color: #ffffff;
+border-top:2px #ced0d4 solid;
+border-bottom: 2px #ced0d4 solid;
+}
+.thichbinhluanchiase a {
+width:200px;
+height:40px;
+display:flex;
+justify-content: center;
+align-items: center;
+gap:5px;
+text-decoration: none;
+}
+.soluotlike {
+margin-left:15px;
+}
+.soluotlike a {
+  text-decoration: none;
+}
+.soluotlike i{
+  margin-right: 5px;
+}
+.socomment {
+margin-right: 10px;
+}
+.socomment a {
+  text-decoration: none;
+}
+
 
 
 
