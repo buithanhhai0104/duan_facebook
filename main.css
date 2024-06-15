@@ -414,6 +414,9 @@ margin-left: 20px;
   align-items: center;
   margin-left: 20px;
 }
+.tieusuchinhsua:hover {
+background-color:#dfe0e2;
+}
 .lamhocsong ul {
 display:flex;
 flex-direction: column;
@@ -715,6 +718,9 @@ align-items: center;
 gap:5px;
 text-decoration: none;
 }
+.thichbinhluanchiase a:hover{
+background-color: #dfe0e2;
+}
 .soluotlike {
 margin-left:15px;
 }
@@ -747,31 +753,43 @@ font-size: 25px;;
   display:flex;
   justify-self: center;
   align-items: center;
+  padding:0 5px;
+  border-radius:5px;
 }
 .anhthuvien {
   display: flex;
     flex-wrap: wrap;
-    gap:10px;
-    width:350px;
-  align-items: center;
+    gap:5px;
+    width:360px;
+    height:330px;
+justify-content:center;
+margin-left: 20px;
+margin-top:10px;
 }
 .anhthuvien img {
-  width:100%;
+width:115px;
 height:106px;
 }
 .anhthuvien img:hover {
    filter:brightness(0.8)
 }
 .anhthuvien a{
-width: calc(33.33% - 10px);
+width: calc(33.33% - 5px);
   height:106px;
 }
 .body1_thuvienanh {
   width:400px;
-  background-color: white;
+  background-color: white;  
   border-radius: 10px;
   margin-top: 20px;
   box-sizing: border-box;
+  padding-bottom:20px;
+}
+.xemtatcaanh a {
+  text-decoration: none;
+}
+.xemtatcaanh span:hover {
+background-color: #dfe0e2;
 }
 
 
