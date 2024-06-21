@@ -1,5 +1,10 @@
+@charset "UTF-8";
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #f0f2f5;
+}
+body a {
+  text-decoration: none;
 }
 
 .head {
@@ -878,16 +883,18 @@ body {
 
 .background_trangchu {
   width: 100%;
-  position: absolute;
+  position: relative;
   top: 75px;
   display: flex;
   box-sizing: border-box;
-  background-color: #dcd7d7;
+  background-color: #f0f2f5;
 }
 
 .trangchu1_nho {
   top: 75px;
   height: 1000px;
+  position: sticky;
+  top: 75px;
 }
 .trangchu1_nho img {
   width: 28px;
@@ -902,9 +909,16 @@ body {
   padding: 0px;
   margin: 0px;
 }
+.trangchu1_nho a {
+  text-decoration: none;
+  color: black;
+}
 .trangchu1_nho div {
   width: 344px;
   display: flex;
+}
+.trangchu1_nho div:hover {
+  background-color: #e4e6eb;
 }
 .trangchu1_nho i {
   font-size: 20px;
@@ -932,11 +946,15 @@ body {
 
 .loitat {
   display: flex;
+  color: #65676b;
 }
 
 .spanc2 {
   display: flex;
   justify-content: flex-end;
+}
+.spanc2 a {
+  color: #65676b;
 }
 
 .ulloitat {
@@ -960,6 +978,64 @@ body {
   padding: 8px 0px;
 }
 
+.anhstorybanbe {
+  width: 140px;
+  height: 400px;
+  position: relative;
+  background-size: cover;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.anhstorybanbe p {
+  position: absolute;
+  top: 210px;
+  left: 5px;
+  color: white;
+  font-size: 15px;
+  z-index: 2;
+}
+.anhstorybanbe img {
+  width: 100%;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+}
+.anhstorybanbe img:hover {
+  transform: scale(1.08);
+  filter: brightness(0.9);
+}
+
+.thanhhuy {
+  width: 140px;
+  height: 400px;
+  background-image: url(/image/huy.jpg);
+  position: relative;
+  background-size: cover;
+  border-radius: 10px;
+}
+.thanhhuy p {
+  position: absolute;
+  top: 210px;
+  left: 5px;
+  color: white;
+  font-size: 15px;
+}
+
+.nhubinh {
+  width: 140px;
+  height: 400px;
+  background-image: url(/image/Như\ bÌNH.jpg);
+  position: relative;
+  background-size: cover;
+  border-radius: 10px;
+}
+.nhubinh p {
+  position: absolute;
+  top: 210px;
+  left: 5px;
+  color: white;
+  font-size: 15px;
+}
+
 .storytc2 {
   padding: 10px;
   display: flex;
@@ -970,6 +1046,7 @@ body {
   list-style: none;
   padding: 0px;
   margin: 0px;
+  margin-bottom: 10px;
   width: 600px;
   justify-content: space-between;
 }
@@ -979,18 +1056,22 @@ body {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 .storytc2 li img {
   width: 140px;
-  height: 202px;
-  border-radius: 10px 10px 0 0;
+  height: 250px;
+  border-radius: 10px;
+  position: relative;
 }
 .storytc2 li span {
   position: absolute;
-  top: 195px;
-  right: 945px;
+  top: 182px;
+  right: 10px;
+  right: 50px;
   width: 30px;
   height: 30px;
+  color: white;
   background-color: #0866ff;
   border-radius: 100%;
   display: flex;
@@ -1007,7 +1088,7 @@ body {
   padding-top: 25px;
   padding-bottom: 10px;
   font-size: 12px;
-  border-radius: 0 0px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .trangchu_baiviet {
@@ -1017,6 +1098,11 @@ body {
   background-color: #ffffff;
   border-radius: 10px;
   padding: 12px 10px 10px;
+  box-shadow: 0px 0px 10px 0px #ccc;
+}
+.trangchu_baiviet i {
+  margin-right: 10px;
+  font-size: 20px;
 }
 
 .videoanhcamsuc ul {
@@ -1116,6 +1202,199 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.quangcao1 {
+  display: flex;
+  padding-bottom: 10px;
+}
+.quangcao1 img {
+  width: 131px;
+  height: 131px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+.quangcao1 span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quangcao {
+  border-bottom: 2px solid #ccc;
+}
+
+.trangvatrangcanhan {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #ccc;
+}
+.trangvatrangcanhan img {
+  border-radius: 100%;
+  margin-right: 10px;
+}
+.trangvatrangcanhan a {
+  padding: 0px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #050505;
+}
+.trangvatrangcanhan a b {
+  font-size: 12px;
+  color: #65676b;
+}
+.trangvatrangcanhan a i {
+  margin: 10px;
+  margin-left: 30px;
+  color: #65676b;
+}
+.trangvatrangcanhan a div {
+  display: flex;
+  padding: 8px 0px;
+}
+.trangvatrangcanhan a div span {
+  display: flex;
+  align-items: center;
+}
+
+.nguoilienhe {
+  border-bottom: 2px solid #ccc;
+}
+
+.trangchu3:hover {
+  overflow: scroll;
+}
+
+.trangchu3 {
+  height: 1000px;
+  position: sticky;
+  top: 75px;
+}
+
+.nguoilienhe_1 {
+  display: flex;
+  justify-content: space-between;
+  color: #65676b;
+}
+.nguoilienhe_1 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nguoilienhe_1 div a {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.nguoilienhe_1 div a:hover {
+  background-color: #ced0d4;
+}
+.nguoilienhe_1 i {
+  padding: 10px;
+  color: #65676b;
+}
+
+.messengerbanbe {
+  display: flex;
+  width: 344px;
+  height: 44px;
+  gap: 10px;
+  padding-left: 10px;
+  padding: 5px;
+  position: relative;
+}
+.messengerbanbe:hover {
+  background-color: #dfe0e2;
+  border-radius: 5px;
+}
+.messengerbanbe img {
+  border-radius: 100%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  position: relative;
+}
+.messengerbanbe div {
+  width: 6px;
+  height: 6px;
+  background-color: green;
+  border-radius: 100%;
+  position: absolute;
+  top: 32px;
+  left: 26px;
+  border: 3px solid #f0f2f5;
+}
+.messengerbanbe span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.abanbe {
+  text-decoration: none;
+}
+
+.messengernhom {
+  display: flex;
+  width: 344px;
+  height: 44px;
+  gap: 10px;
+  padding-left: 10px;
+  padding: 5px;
+  position: relative;
+}
+.messengernhom:hover {
+  background-color: #dfe0e2;
+  border-radius: 5px;
+}
+.messengernhom img {
+  border-radius: 100%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.messengernhom img:nth-child(2) {
+  position: absolute;
+  top: 15px;
+  left: 0px;
+}
+.messengernhom img:first-child {
+  position: absolute;
+  left: 10px;
+  top: 2px;
+}
+.messengernhom div {
+  width: 6px;
+  height: 6px;
+  background-color: green;
+  border-radius: 100%;
+  position: absolute;
+  top: 35px;
+  left: 36px;
+  border: 3px solid #f0f2f5;
+}
+.messengernhom span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin-left: 50px;
+}
+
+.trochuyennhom {
+  height: 550px;
 }
 
 /*# sourceMappingURL=main2.css.map */
