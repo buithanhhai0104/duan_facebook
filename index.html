@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="main2.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
   </head>
 
@@ -12,6 +12,13 @@
     <!-- dau phan head -->
     <div class="head">
       <!-- bat dau search -->
+       <div class="headmobile"> 
+        <div class="mobile_iconten">
+          <a href="/trangchu.html"><i class="fa-solid fa-arrow-left"></i></a>
+          <h3>Thanh Hải</h3>
+        </div>
+        <div class="mobile_chuyentrang"><a href="/trangchu.html">Chuyển Trang Cá Nhân</a></div>
+       </div>
       <div class="facebooksearch">
         <div class="iconface">
           <a href="https://www.facebook.com/?locale=vi_VN"
@@ -162,25 +169,25 @@
       <div class="thanhbaiviet">
         <div class="thanhbaivietnho">
           <ul>
-            <li>
+            <li class="thanhbaivietnho_baiviet">
               <div><a href="https://www.tiktok.com/vi-VN/">Bài Viết</a></div>
             </li>
-            <li>
+            <li class="thanhbaivietnho_gioithieu">
               <div><a href="https://www.tiktok.com/vi-VN/">Giới Thiệu</a></div>
             </li>
-            <li>
-              <div><a href="https://www.tiktok.com/vi-VN/">Bạn bè</a></div>
+            <li class="thanhbaivietnho_banbe">
+              <div ><a href="https://www.tiktok.com/vi-VN/">Bạn bè</a></div>
             </li>
-            <li>
+            <li class="thanhbaivietnho_anh">
               <div><a href="https://www.tiktok.com/vi-VN/">Ảnh</a></div>
             </li>
-            <li>
+            <li  class="thanhbaivietnho_video">
               <div><a href="https://www.tiktok.com/vi-VN/">Video</a></div>
             </li>
-            <li>
+            <li class="thanhbaivietnho_checkin">
               <div><a href="https://www.tiktok.com/vi-VN/">Check in</a></div>
             </li>
-            <li>
+            <li class="thanhbaivietnho_xemthem">
               <div><a href="https://www.tiktok.com/vi-VN/">Xem thêm</a></div>
             </li>
           </ul>
@@ -213,12 +220,17 @@
                   <i class="fa-solid fa-house"></i>Sống Tại
                   <a href="https://www.tiktok.com/vi-VN">Mỹ Tho</a>
                 </li>
+                <li class="mobile_xemthemvebanthan">
+                 <a href="/trangchu.html"><i class="fa-solid fa-ellipsis"></i><p>Xem thêm về bản thân</p></a>
+                </li>
               </ul>
             </div>
             <a href="https://www.tiktok.com/vi-VN"><div class="tieusuchinhsua">Chỉnh sửa chi tiết</div></a>
             <div class="anhstory">
-              <a href="https://www.tiktok.com/vi-VN"><img src="/image/ảnh story.png" /></a>
-              <p style="margin: 0 0 10px 20px">Bộ sưu tập</p>
+              <a href="https://www.tiktok.com/vi-VN">
+              <div><i class="fa-solid fa-plus"></i></div>
+                <img src="/image/ảnh story.png" />
+              </a>
             </div>
             <a href="https://www.tiktok.com/vi-VN"><div class="tieusuchinhsua">Chỉnh sửa Phần đáng chú ý</div></a>
           </div>
@@ -242,11 +254,13 @@
         </div>
         <div class="body2">
           <div class="body2_taobaiviet">
+            <div class="mobile_chubaiviet">Bài Viết</div>
             <div class="anh_timkiem">
               <div>
                 <a href="https://www.tiktok.com/vi-VN"><img src="/image/avatar.jpg" /></a>
               </div>
               <input type="search" placeholder="Bạn đang nghĩ gì ? " />
+              <div class="mobile_imgbaiviet"><i class="fa-solid fa-images"></i></div>
             </div>
             <div class="videoanhsukien">
               <ul>
@@ -259,13 +273,13 @@
                 </li>
                 <li>
                   <a href="https://www.tiktok.com/vi-VN"
-                    ><div><i class="fa-solid fa-images" style="color:green"></i>Ảnh/Video</div></a
+                    ><div><i class="fa-solid fa-images" style="color:green;"></i>Ảnh/Video</div></a
                   >
                 </li>
                 <li>
                   <a href="https://www.tiktok.com/vi-VN"
                     ><div>
-                      <i class="fa-solid fa-flag" style="color:blue"></i>Sự kiện trong đời
+                      <i class="fa-solid fa-flag" style="color:blue"></i><p>Sự kiện trong đời</p>
                     </div>
                     </a
                   >
@@ -304,6 +318,114 @@
                 </div>
               </a
               >
+            </div>
+          </div>
+          <div class="dangbaiviet1_anhvaten">
+            <a><div class="anhvaten_img"><img src="/image/avatar.jpg" /></div></a>
+            <div class="body2_dangbaiviet1">
+              <div class="anhvaten_tenvangay">
+                <a href="https://www.tiktok.com/vi-VN"><h2>Thanh Hải</h2></a>
+                <span>
+                  <b>28 tháng 3 </b> . <img src="/image/icon công khai.png"
+                /></span>
+              </div>
+              <div class="anhvaten_bacham">
+                <div><i class="fa-solid fa-ellipsis"></i></div>
+              </div>
+            </div>
+          </div>
+          <a><img class="anhbaiviet1" src="/image/anh bai viet 1.jpg"></a>
+          <a><div class="baiviet1"></a>
+            <div class="Chuongtrinhlaithu">
+              <div style="color:red;font-size:12px;">T6, 29 THÁNG 3</div>
+              <span style="font-size: 16px;color:#050505;">CHƯƠNG TRÌNH LÁI THỬ VÀ TRẢI NGHIỆM XE TẢI TERACO </span>
+              <div>
+                <div style="font-size:14px;color:#64676b">Ô Tô An Sương Siêu Thị Xe Tải</div>
+                <div style="font-size:14px;color:#64676b">Thẳng đã quan tâm</div>
+              </div>
+            </div>
+            <a href="https://www.tiktok.com/vi-VN" class="baiviet1_quantam"><div> <i class="fa-regular fa-star"></i>Quan Tâm</div></a>
+          </div>
+          <div class="likevacomment">
+            <div class="soluotlikevacomment">
+              <div class="soluotlike"> <a href="https://www.tiktok.com/vi-VN"><i class="fa-solid fa-thumbs-up"></i><span>Bùi Duyên, Thương Nguyễn và 4 người khác</span></a></div>
+              <div class="socomment"> <a href="https://www.tiktok.com/vi-VN">3<i class="fa-regular fa-comment"></i></a></div>
+            </div>
+            <div class="thichbinhluanchiase">
+              <ul>
+                <li><a href="https:tiktok.com"><i class="fa-solid fa-thumbs-up"></i><span>Thích</span></li></a>
+                <li><a href="https:tiktok.com"><i class="fa-regular fa-comment"></i><span>Bình luận</span></li></a>
+                <li><a href="https:tiktok.com"><i class="fa-solid fa-share"></i><span>Chia sẻ</span></li></a>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div style="padding-left: 20px;padding-top:10px;background-color: white;color:#65676B">Xem thêm bình luận</div>
+            <div class="phanbinhluan">
+              <a href="" class="anhnguoibinhluan"><img src="/image/a7.jpg"></a>
+              <div class="binhluan">
+                <span style="padding:5px 10px;"><a>Nguyễn Oanh</a></span>
+                <div><img src="/image/nhandan2.webp"></div>
+                <ul>
+                  <li><a href="http:/tiktok.com">11 tuần</a></li>
+                  <li><a href="http:/tiktok.com">Thích</a></li>
+                  <li><a href="http:/tiktok.com">Phản hồi</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="dangbaiviet1_anhvaten">
+            <a><div class="anhvaten_img"><img src="/image/avatar.jpg" /></div></a>
+            <div class="body2_dangbaiviet1">
+              <div class="anhvaten_tenvangay">
+                <a href="https://www.tiktok.com/vi-VN"><h2>Thanh Hải</h2></a>
+                <span>
+                  <b>28 tháng 3 </b> . <img src="/image/icon công khai.png"
+                /></span>
+              </div>
+              <div class="anhvaten_bacham">
+                <div><i class="fa-solid fa-ellipsis"></i></div>
+              </div>
+            </div>
+          </div>
+          <a><img class="anhbaiviet1" src="/image/anh bai viet 1.jpg"></a>
+          <a><div class="baiviet1"></a>
+            <div class="Chuongtrinhlaithu">
+              <div style="color:red;font-size:12px;">T6, 29 THÁNG 3</div>
+              <span style="font-size: 16px;color:#050505;">CHƯƠNG TRÌNH LÁI THỬ VÀ TRẢI NGHIỆM XE TẢI TERACO </span>
+              <div>
+                <div style="font-size:14px;color:#64676b">Ô Tô An Sương Siêu Thị Xe Tải</div>
+                <div style="font-size:14px;color:#64676b">Thẳng đã quan tâm</div>
+              </div>
+            </div>
+            <a href="https://www.tiktok.com/vi-VN" class="baiviet1_quantam"><div> <i class="fa-regular fa-star"></i>Quan Tâm</div></a>
+          </div>
+          <div class="likevacomment">
+            <div class="soluotlikevacomment">
+              <div class="soluotlike"> <a href="https://www.tiktok.com/vi-VN"><i class="fa-solid fa-thumbs-up"></i><span>Bùi Duyên, Thương Nguyễn và 4 người khác</span></a></div>
+              <div class="socomment"> <a href="https://www.tiktok.com/vi-VN">3<i class="fa-regular fa-comment"></i></a></div>
+            </div>
+            <div class="thichbinhluanchiase">
+              <ul>
+                <li><a href="https:tiktok.com"><i class="fa-solid fa-thumbs-up"></i><span>Thích</span></li></a>
+                <li><a href="https:tiktok.com"><i class="fa-regular fa-comment"></i><span>Bình luận</span></li></a>
+                <li><a href="https:tiktok.com"><i class="fa-solid fa-share"></i><span>Chia sẻ</span></li></a>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div style="padding-left: 20px;padding-top:10px;background-color: white;color:#65676B">Xem thêm bình luận</div>
+            <div class="phanbinhluan">
+              <a href="" class="anhnguoibinhluan"><img src="/image/a7.jpg"></a>
+              <div class="binhluan">
+                <span style="padding:5px 10px;"><a>Nguyễn Oanh</a></span>
+                <div><img src="/image/nhandan2.webp"></div>
+                <ul>
+                  <li><a href="http:/tiktok.com">11 tuần</a></li>
+                  <li><a href="http:/tiktok.com">Thích</a></li>
+                  <li><a href="http:/tiktok.com">Phản hồi</a></li>
+                </ul>
+              </div>
             </div>
           </div>
           <div class="dangbaiviet1_anhvaten">
