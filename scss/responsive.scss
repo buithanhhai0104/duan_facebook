@@ -1,0 +1,508 @@
+
+/* PC medium resolution > */
+@media (min-width: 1113px){
+
+}
+/* >= Tablet */
+@media (min-width: 740px){
+
+}
+/* mobile */
+@media (max-width: 740px) {
+    .head_marketplace_option {
+        display:none;
+    }
+    .head {
+    width: 100%;
+    padding: 0px;
+    height:70px;
+    z-index: 3;
+  }
+  
+  .headmobile {
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0px;
+  }
+  .mobile_chuyentrang {
+    margin-right: 5px;
+    a {
+      font-size: 15px;
+      color: #0866ff;
+    }
+  }
+  .mobile_iconten {
+    display: flex;
+    width: 60%;
+    i {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 15px;
+    }
+    a {
+      color: black;
+    }
+    h3 {
+      margin: 0px;
+      width: 100px;
+      font-size: 15px;
+      display: flex;
+      align-items: center;
+    }
+  }
+  .facebooksearch {
+    display:none;
+  }
+  .iconhome {
+    display: none;
+  }
+  .iconmenu {
+    display: none;
+  }
+  .backgroundbia {
+    width: 100%;
+    height: 20%;
+    img {
+      width: 100%;
+      height: 20%;
+    }
+  }
+  .avttenchinhsua {
+    flex-direction: column;
+    margin-top: -140px;
+    background-color: white;
+    border-bottom: 3px solid #ced0d4;
+  }
+  .banbevachinhsua {
+    flex-direction: column;
+    justify-content: start;
+    gap: 0px;
+    margin: 0px;
+  }
+  .avtchinh {
+    margin: 0px;
+  }
+  .imgchinh {
+    margin: 0px;
+  }
+  .anhbanbe {
+    display: none;
+  }
+  .chinhsuatrangcanhan {
+    flex-wrap: wrap;
+    margin: 0px;
+    gap: 0px;
+  }
+  .chinhsuaanhbia {
+    display: none;
+  }
+  .background1 {
+    width: 100%;
+  }
+  .background2 {
+    width: 83%;
+    background: #ced0d4;
+  }
+  .background3 {
+    width: 15%;
+    margin-left: 5px;
+    margin-top: 10px;
+    background: #ced0d4;
+  }
+  .thanhbaiviet {
+    width: 100%;
+  }
+  .daugach {
+    width: 100%;
+    margin: 0px;
+  }
+  .thanhbaivietnho {
+    width: 100%;
+    margin: 0px;
+    background-color: white;
+    ul {
+      width: 100%;
+    }
+    li {
+      width: 33.33%;
+      div {
+        width: 100%;
+        border-bottom: 1px solid #c6c4c4;
+        border-radius: 0px;
+      }
+    }
+  }
+  .thanhbaivietnho_banbe {
+    display: none;
+  }
+  .thanhbaivietnho_checkin {
+    display: none;
+  }
+  .thanhbaivietnho_gioithieu {
+    display: none;
+  }
+  .thanhbaivietnho_xemthem {
+    display: none;
+  }
+  .daubacham {
+    display: none;
+  }
+  .tenvabanbe {
+    width:100%;
+    justify-content: start;
+    margin: 0px;
+    padding: 0px;
+    ul {
+      width:100%;
+      margin: 0px;
+      li{
+        width:100%;
+        justify-content: start;
+      }
+    }
+  }
+  .backgroundbody {
+    gap: 0px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .body1_gioithieu {
+    width: 100%;
+    height: 310px;
+    border-radius: 0px;
+    margin: 0px;
+    border-bottom: 1px solid #ced0d4;
+  }
+  .body2_baiviet_2 {
+    display: none;
+  }
+  .gioithieu {
+    display: none;
+  }
+  .tieusuchinhsua {
+    display: none;
+  }
+  .lamhocsong {
+    ul {
+      width:100%;
+      li {
+        width:100%;
+        justify-content: start;
+        font-size: 16px;
+        padding: 10px;
+      }
+    }
+  }
+  .mobile_xemthemvebanthan {
+    display: block;
+    display: flex;
+    padding: 10px;
+    a {
+      display: flex;
+      i {
+        margin-left: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      p {
+        padding-left: 3px;
+        margin: 0px;
+      }
+    }
+  }
+  .anhstory {
+    margin: 0px;
+    a {
+      display: flex;
+      gap: 20px;
+    }
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 70px;
+      height: 112px;
+      background-color: #e4e6eb;
+      margin-left: 10px;
+      border-radius: 10px;
+      i {
+        color: #c6c4c4;
+        display: block;
+        font-size: 30px;
+      }
+    }
+    img {
+      width: 70px;
+      height: 112px;
+      margin: 0px;
+    }
+  }
+  .body1_thuvienanh {
+    display: none;
+  }
+  .anh_timkiem {
+    div {
+      padding-left: 10px;
+    }
+    input {
+      width: 305px;
+    }
+  }
+  .body2_taobaiviet {
+    width: 100%;
+    height: 140px;
+    border-radius: 0px;
+    margin: 0px;
+  }
+  .videoanhsukien {
+    width:100%;
+    ul{
+      width:100%;
+      li{
+        width:33.33%;
+        a{
+          width:100%;
+          div{
+            width:100%;
+          margin:0px;
+          p{
+            white-space: nowrap;
+      overflow: hidden; 
+      text-overflow: ellipsis; 
+          }
+        }
+        }
+      }
+    }
+  }
+  .mobile_imgbaiviet {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  .mobile_chubaiviet {
+    display: block;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .dangbaiviet1_anhvaten {
+    margin: 0px;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 0px;
+    margin-top: 5px;
+    img {
+      margin: 5px;
+    }
+  }
+  .anhvaten_tenvangay {
+    width: 100%;
+    padding: 5px;
+  }
+  .body2_dangbaiviet1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .anhbaiviet1 {
+    width: 100%;
+  }
+  .baiviet1 {
+    width: 100%;
+    padding: 10px 0px;
+  }
+  .soluotlikevacomment {
+    width: 100%;
+  }
+  .socomment {
+    margin: 0px;
+  }
+  .soluotlike {
+    margin-left: 5px;
+  }
+  .phanbinhluan {
+    border-radius: 0px;
+  }
+  .thichbinhluanchiase {
+    width: 100%;
+    ul {
+      width: 100%;
+      li {
+        width: 33.33%;
+        a {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .trangchu3 {
+    display: none;
+  }
+  .facebooksearch_trangchu {
+    input {
+      display: none;
+    }
+  }
+  .iconmenu_trangchu {
+    margin: 0px;
+    ul {
+      margin-right: 10px;
+      li {
+        width: 40px;
+        height: 40px;
+        i {
+          color: #4e4c4c;
+        }
+        img {
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+  .mobile_icon3gach {
+    margin-right: 50px;
+    display: block;
+  }
+  .iconface {
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+  .search {
+    i {
+      background-color: #e4e6eb;
+      padding: 5px;
+      margin: 0px;
+      border-radius: 100%;
+    }
+  }
+  .trangchu1_nho {
+    display: none;
+  }
+  .storytc2 {
+    padding:0px;
+    margin-bottom: 10px;
+    ul {
+      width: 100%;
+      gap:5px;
+    }
+    width: 100%;
+    &:hover {
+      overflow: auto;
+    }
+  }
+  .trangchu_baiviet {
+    width: 100%;
+    height: 130px;
+    padding: 0px;
+    box-sizing: border-box;
+    ul {
+      width: 100%;
+      div {
+        width: 100%;
+      }
+    }
+  }
+  .trangchu2 {
+    width: 100%;
+  }
+  .trangchu_baivietall {
+    width: 100%;
+  }
+  .trangchu_baiviet {
+    width:100%;
+    height:110px;
+    border-radius: 0px;
+    ul {
+      width: 100%;
+      gap: 0px;
+    }
+    }
+    li {
+      width:50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      div{
+        padding:0px;
+      }
+        p {
+          margin: 0px;
+        }
+      }
+      .mobile_camxuc:last-of-type {
+      display:none;
+    }
+    .anh_timkiem{
+      border-radius: 0px;
+      img{
+        margin-left:5px;
+      }
+      input{
+        margin-left: 10px;
+        width:330px;
+      }
+    }
+    .trangchu_anhvaten_baiviet1 {
+      width:100%;
+    }
+    .noidungbaiviet_1 {
+      width:100%
+    }
+    .anh_baiviet1 {
+      width:100%;
+      img{
+        width:100%;
+      }
+    }
+    .trangchu_likevacomment{
+      width:100%;
+    }
+    .trangchu_soluotlikevacomment {
+      width:100%;
+      padding:10px 0px;
+    }
+    .trangchu_thichbinhluanchiase {
+      li{
+        width:33%.33;
+        padding:10px;
+        
+      a{
+        width:100%;
+        padding:0px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        span{
+          margin-left: 10px;
+        }
+      }
+      }
+    }
+  .iconface_trangchu{
+  margin-left: 5px;
+  margin-bottom: 2px;
+  }
+  }
+  .search_trangchu {
+    i{
+      width:40px;
+      height:40px;
+      background-color: #c6c4c4;
+      padding:0px;
+      margin-top:5px;
+      border-radius: 100%;
+margin-left: 5px;
+    }
+.anh_timkiem_trangchu {
+  img{
+    margin:10px;
+  }
+}
+}

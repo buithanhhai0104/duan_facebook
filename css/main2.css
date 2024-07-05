@@ -2,6 +2,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #f0f2f5;
+  margin: 0px;
 }
 body a {
   text-decoration: none;
@@ -183,7 +184,7 @@ body a {
 }
 
 .chinhsuaanhbia {
-  width: 140px;
+  width: 150px;
   height: 20px;
   background-color: white;
   position: absolute;
@@ -499,6 +500,37 @@ body a {
   border-radius: 100%;
 }
 .anh_timkiem input {
+  border-radius: 20px;
+  border: 0;
+  height: 40px;
+  width: 500px;
+  background-color: #f0f2f5;
+  padding-left: 20px;
+}
+
+.anh_timkiem_trangchu {
+  display: flex;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  border-width: 1px;
+  border-color: #ccc;
+  border-style: solid;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+}
+.anh_timkiem_trangchu div {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  padding-right: 10px;
+  padding-left: 20px;
+}
+.anh_timkiem_trangchu div img {
+  width: 100%;
+  border-radius: 100%;
+}
+.anh_timkiem_trangchu input {
   border-radius: 20px;
   border: 0;
   height: 40px;
@@ -905,7 +937,7 @@ body a {
   top: 75px;
 }
 .trangchu1_nho img {
-  width: 28px;
+  width: 100%;
   height: 28px;
   border-radius: 100%;
   padding: 10px;
@@ -1069,7 +1101,7 @@ body a {
 .storytc2 li img {
   width: 140px;
   height: 250px;
-  border-radius: 10px;
+  border-radius: 10px 10px 0px 0px;
   position: relative;
 }
 .storytc2 li span {
@@ -1089,6 +1121,7 @@ body a {
   border: 5px solid #ffffff;
 }
 .storytc2 div {
+  width: 100%;
   background-color: #ffffff;
   display: flex;
   justify-content: center;
@@ -1096,7 +1129,7 @@ body a {
   padding-top: 25px;
   padding-bottom: 10px;
   font-size: 12px;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 0px 0 10px 10px;
 }
 
 .trangchu_baiviet {
@@ -1120,11 +1153,19 @@ body a {
   padding: 0px;
   justify-content: space-between;
 }
+.videoanhcamsuc ul li {
+  padding: 10px;
+  width: 33, 33%;
+}
 .videoanhcamsuc ul li a {
   text-decoration: none;
 }
 .videoanhcamsuc ul li div {
-  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+}
+.videoanhcamsuc ul p {
+  margin: 0px;
 }
 
 .noidungbaiviet_1 {
@@ -1154,7 +1195,7 @@ body a {
 }
 
 .trangchu_soluotlikevacomment {
-  width: 600px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   background-color: #ffffff;
@@ -1164,7 +1205,7 @@ body a {
   border-top: 2px solid #ccc;
 }
 .trangchu_thichbinhluanchiase ul {
-  width: 600px;
+  width: 100%;
   display: flex;
   list-style: none;
   margin: 0px;
@@ -1418,19 +1459,128 @@ body a {
   font-weight: 30;
 }
 
+.facebooksearch_trangchu {
+  display: flex;
+}
+
+.search_trangchu {
+  position: relative;
+}
+.search_trangchu input {
+  border-radius: 30px;
+  height: 40px;
+  padding-left: 35px;
+  border: 0;
+  background-color: #dcd7d7;
+  width: 300px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.search_trangchu i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  font-size: 15px;
+  margin-top: 10px;
+  padding-left: 10px;
+  color: #7d7272;
+}
+
+.iconface_trangchu i {
+  font-size: 40px;
+  color: red;
+  margin-top: 5px;
+}
+.iconface_trangchu a {
+  text-decoration: none;
+}
+
+.iconmenu_trangchu {
+  margin: 40px;
+}
+.iconmenu_trangchu ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+.iconmenu_trangchu ul li {
+  background-color: #ccc;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconmenu_trangchu ul li:hover {
+  background-color: #7d7272;
+}
+.iconmenu_trangchu ul li i {
+  font-size: 25px;
+}
+
+.imgatv {
+  width: 50px;
+  height: 50px;
+}
+.imgatv img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.messenger {
+  position: relative;
+}
+
+.notification {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 100%;
+  position: absolute;
+  right: -13px;
+  top: -20px;
+  font-size: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile_icon3gach {
+  display: none;
+}
+
+.anh_baiviet1 img {
+  width: 600px;
+}
+
 @media only screen and (max-width: 46.1875em) {
   .head {
     width: 100%;
     padding: 0px;
+    height: 70px;
+    z-index: 3;
   }
   .headmobile {
     display: block;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     padding: 0px;
   }
+  .mobile_chuyentrang {
+    margin-right: 5px;
+  }
   .mobile_chuyentrang a {
+    font-size: 15px;
     color: #0866ff;
   }
   .mobile_iconten {
@@ -1551,12 +1701,18 @@ body a {
     display: none;
   }
   .tenvabanbe {
+    width: 100%;
     justify-content: start;
     margin: 0px;
     padding: 0px;
   }
   .tenvabanbe ul {
+    width: 100%;
     margin: 0px;
+  }
+  .tenvabanbe ul li {
+    width: 100%;
+    justify-content: start;
   }
   .backgroundbody {
     gap: 0px;
@@ -1580,7 +1736,12 @@ body a {
   .tieusuchinhsua {
     display: none;
   }
+  .lamhocsong ul {
+    width: 100%;
+  }
   .lamhocsong ul li {
+    width: 100%;
+    justify-content: start;
     font-size: 16px;
     padding: 10px;
   }
@@ -1640,36 +1801,30 @@ body a {
   }
   .body2_taobaiviet {
     width: 100%;
-    height: 150px;
+    height: 140px;
     border-radius: 0px;
     margin: 0px;
   }
-  .body2_taobaiviet ul {
+  .videoanhsukien {
     width: 100%;
-    padding-top: 10px;
   }
-  .body2_taobaiviet ul li {
-    margin: 0px;
-    width: 33%;
-  }
-  .body2_taobaiviet ul li div {
+  .videoanhsukien ul {
     width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-    margin-left: 5px;
-    font-size: 13px;
   }
-  .body2_taobaiviet ul li div p {
+  .videoanhsukien ul li {
+    width: 33.33%;
+  }
+  .videoanhsukien ul li a {
+    width: 100%;
+  }
+  .videoanhsukien ul li a div {
+    width: 100%;
     margin: 0px;
+  }
+  .videoanhsukien ul li a div p {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-  }
-  .body2_taobaiviet ul li div i {
-    font-size: 20px;
-  }
-  .body2_taobaiviet ul li a {
-    width: 33%;
   }
   .mobile_imgbaiviet {
     display: block;
@@ -1733,6 +1888,162 @@ body a {
   .thichbinhluanchiase ul li a {
     width: 100%;
   }
+  .trangchu3 {
+    display: none;
+  }
+  .facebooksearch_trangchu input {
+    display: none;
+  }
+  .iconmenu_trangchu {
+    margin: 0px;
+  }
+  .iconmenu_trangchu ul {
+    margin-right: 10px;
+  }
+  .iconmenu_trangchu ul li {
+    width: 40px;
+    height: 40px;
+  }
+  .iconmenu_trangchu ul li i {
+    color: #4e4c4c;
+  }
+  .iconmenu_trangchu ul li img {
+    margin-top: 5px;
+  }
+  .mobile_icon3gach {
+    margin-right: 50px;
+    display: block;
+  }
+  .iconface {
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+  .search i {
+    background-color: #e4e6eb;
+    padding: 5px;
+    margin: 0px;
+    border-radius: 100%;
+  }
+  .trangchu1_nho {
+    display: none;
+  }
+  .storytc2 {
+    padding: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .storytc2 ul {
+    width: 100%;
+    gap: 5px;
+  }
+  .storytc2:hover {
+    overflow: auto;
+  }
+  .trangchu_baiviet {
+    width: 100%;
+    height: 130px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .trangchu_baiviet ul {
+    width: 100%;
+  }
+  .trangchu_baiviet ul div {
+    width: 100%;
+  }
+  .trangchu2 {
+    width: 100%;
+  }
+  .trangchu_baivietall {
+    width: 100%;
+  }
+  .trangchu_baiviet {
+    width: 100%;
+    height: 110px;
+    border-radius: 0px;
+  }
+  .trangchu_baiviet ul {
+    width: 100%;
+    gap: 0px;
+  }
+  li {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  li div {
+    padding: 0px;
+  }
+  li p {
+    margin: 0px;
+  }
+  .mobile_camxuc:last-of-type {
+    display: none;
+  }
+  .anh_timkiem {
+    border-radius: 0px;
+  }
+  .anh_timkiem img {
+    margin-left: 5px;
+  }
+  .anh_timkiem input {
+    margin-left: 10px;
+    width: 330px;
+  }
+  .trangchu_anhvaten_baiviet1 {
+    width: 100%;
+  }
+  .noidungbaiviet_1 {
+    width: 100%;
+  }
+  .anh_baiviet1 {
+    width: 100%;
+  }
+  .anh_baiviet1 img {
+    width: 100%;
+  }
+  .trangchu_likevacomment {
+    width: 100%;
+  }
+  .trangchu_soluotlikevacomment {
+    width: 100%;
+    padding: 10px 0px;
+  }
+  .trangchu_thichbinhluanchiase li {
+    width: 33% 0.33;
+    padding: 10px;
+  }
+  .trangchu_thichbinhluanchiase li a {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .trangchu_thichbinhluanchiase li a span {
+    margin-left: 10px;
+  }
+  .iconface_trangchu {
+    margin-left: 5px;
+    margin-bottom: 2px;
+  }
+}
+.search_trangchu i {
+  width: 40px;
+  height: 40px;
+  background-color: #c6c4c4;
+  padding: 0px;
+  margin-top: 5px;
+  border-radius: 100%;
+  margin-left: 5px;
+}
+.search_trangchu .anh_timkiem_trangchu img {
+  margin: 10px;
+}
+
+.ádkjnkasdj {
+  color: red;
 }
 
 /*# sourceMappingURL=main2.css.map */
